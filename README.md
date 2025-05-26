@@ -1,4 +1,4 @@
-# :trollface: Personal Portfolio
+# 🙋 Personal Portfolio
 
 This repository contains my personal portfolio, a website that I build with the purpose to introduce my path in the programming area and show
 my learning with practical projects that I made.
@@ -24,7 +24,7 @@ To view locally the project structure, follow the step below:
     git clone https://github.com/dorfmam/portfolio.git
     ```
 
----
+## Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#projects)
 
 ## 📂 Project Structure
 
@@ -53,4 +53,4 @@ fork this repository and suggest your pull request.
 
 ---
 
-Made by [Caio Dorfmam](https://github.com/dorfmam/main)
+Made by [Caio Dorfmam](https://github.com/dorfmam/main) :trollface:
