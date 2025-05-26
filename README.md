@@ -24,7 +24,7 @@ To view locally the project structure, follow the step below:
     git clone https://github.com/dorfmam/portfolio.git
     ```
 
-## Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#projects)
+Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#projects)
 
 ## 📂 Project Structure
 
