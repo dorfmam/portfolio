@@ -1,0 +1,91 @@
+@media (max-width: 850px) {
+    .menu a {
+        font-size: 12px;
+    }
+
+    .main h1 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 12px;
+    }
+
+    .button-call {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .main img {
+        height: 124px;
+        width: auto;
+    }
+
+    .about-me h2 {
+        font-size: 20px;
+    }
+
+    .about-me p {
+        font-size: 12px;
+    }
+
+    .github-button,
+    .linkedin-button,
+    .instagram-button {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .instagram-button {
+        margin-left: 5px;
+    }
+
+    .linkedin-button {
+        margin-left: 10px;
+    }
+
+    .about-me img {
+        width: auto;
+        height: 124px;
+    }
+
+    .projects-list-header h2 {
+        font-size: 20px;
+    }
+
+    .projects-list-header p {
+        font-size: 12px;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+
+    .contact-form {
+        max-width: 220px;
+    }
+
+    .contact-form label {
+        font-size: 12px;
+    }
+
+    .contact-form input {
+        font-size: 12px;
+    }
+
+    .contact-form textarea {
+        font-size: 12px;
+    }
+
+    .footer h3 {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}

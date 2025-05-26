@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style/styles.css" />
+        <link rel="stylesheet" href="style/query.css" />
+        <link rel="icon" href="images/purple-sky.png" type="image/png" />
+        <title>Portfolio - Caio</title>
+    </head>
+    <body>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="home" class="main">
+            <div>
+                <h1>Hello, welcome<br />to my portfolio!</h1>
+                <p>Transforming ideas into smart solutions</p>
+                <a href="#projects">
+                    <button class="button-call">Check my projects!</button>
+                </a>
+                <img
+                    src="images/me.png"
+                    alt="Caio Dorfmam's Avatar"
+                    class="floating-image"
+                />
+            </div>
+        </section>
+
+        <section id="about" class="about-me">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    <br />
+                    Hi, my name is Caio Dorfmam. I'm a 21 years old Full-Stack
+                    Developer and a systems analysis and development student.
+                    I'm a passionate about develop functional and intuitive
+                    applications to solve real problems efficiently. My training
+                    has allowed me to apply and how to evolve my skills, such as
+                    JavaScript, TypeScript, Python, React.js, Nest.js, SQL and
+                    Tailwind CSS.
+                    <br /><br />
+                    I'm always seeking to improve my skills to evolve as a
+                    software developer and I believe that discipline,
+                    persistence and continuous learning are essential to evolve
+                    it. Besides technology. I'm a huge football and k-pop lover.
+                    <br /><br />
+                    Wanna know more about my projects or collaborations? So
+                    check out where you can contact me below!
+                </p>
+                <a href="https://github.com/dorfmam/main" target="_blank">
+                    <button class="github-button">GitHub</button>
+                </a>
+                <a href="https://instagram.com/caio.dorfmam" target="_blank">
+                    <button class="instagram-button">Instagram</button>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/caio-dorfmam-156a43334"
+                    target="_blank"
+                >
+                    <button class="linkedin-button">LinkedIn</button>
+                </a>
+            </div>
+            <img
+                src="images/myself.png"
+                alt="Caio Dorfmam's Bust"
+                class="bust-floating-image"
+            />
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="projects-list-header">
+                <h2>Projects</h2>
+                <p>Check out my recent projects below:</p>
+            </div>
+
+            <div class="project-list">
+                <a
+                    href="https://github.com/dorfmam/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="images/portfolio-project.jpg"
+                        alt="My Personal Portfolio"
+                    />
+                </a>
+                <a
+                    href="https://github.com/dorfmam/calculadora-imc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="images/imc-calculator-project.jpg"
+                        alt="A IMC calculator project"
+                    />
+                </a>
+                <a
+                    href="https://github.com/dorfmam/school-management"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="images/typescript-poo-project.jpg"
+                        alt="A POO TypeScript Project"
+                    />
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Let's work and collaborate together? Send me a message!</p>
+            <form
+                action="https://formsubmit.co/contatodorfmam@gmail.com"
+                method="POST"
+                class="contact-form"
+            >
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                />
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                />
+
+                <label for="subject">Subject:</label>
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter the subject of the message"
+                    required
+                />
+
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="10"
+                    placeholder="Enter your message"
+                    required
+                ></textarea>
+
+                <button type="submit">Send</button>
+
+                <input type="hidden" name="_captcha" value="false" />
+            </form>
+        </section>
+
+        <footer class="footer">
+            <h3>
+                <a href="#"> &copy; 2025 - Caio Dorfmam</a>
+            </h3>
+            <p>&nbsp;- All the rights reserved</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+.menu {
+    background-color: #a78bfa;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.menu a:hover {
+    color: #ddd;
+}
+
+.main {
+    width: 100%;
+    background-color: #ffffff;
+    height: 512px;
+    position: relative;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.main h1 {
+    color: #4e71ff;
+    font-size: 50px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.main img {
+    position: absolute;
+    right: 10%;
+    width: auto;
+    height: 320px;
+    bottom: 12%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floating-image {
+    animation: float 3s ease-in-out infinite;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.button-call {
+    font-size: 14px;
+    background-color: #a78bfa;
+    color: #ffffff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-call:hover {
+    background-color: #7f55b1;
+}
+
+.about-me {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-me div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about-me h2 {
+    font-size: 40px;
+    color: #ff8a8a;
+}
+
+.about-me p {
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.about-me img {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    right: 15%;
+}
+
+.bust-floating-image {
+    animation: float 3s ease-in-out infinite;
+}
+
+.about-me a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    transition: 0.3s;
+}
+.about.me a:hover {
+    color: #ddd;
+}
+
+.github-button {
+    font-size: 14px;
+    padding: 14px 24px;
+    margin-top: 24px;
+    background-color: #a78bfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateX(-18px);
+}
+
+.instagram-button {
+    font-size: 14px;
+    padding: 14px 24px;
+    margin-top: 24px;
+    background-color: #a78bfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateX(-24px);
+}
+
+.linkedin-button {
+    font-size: 14px;
+    padding: 14px 24px;
+    margin-top: 24px;
+    background-color: #a78bfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateX(-30px);
+}
+
+.github-button:hover {
+    background-color: #7f55b1;
+}
+
+.instagram-button:hover {
+    background-color: #7f55b1;
+}
+.linkedin-button:hover {
+    background-color: #7f55b1;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+    gap: 40px;
+}
+
+.projects-list-header {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.projects-list-header h2 {
+    font-size: 40px;
+    color: #4e71ff;
+    padding-bottom: 12px;
+}
+
+.projects-list-header p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.project-list {
+    display: flex;
+    width: 100%;
+    padding: 0 10%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.project-list a {
+    display: block;
+    width: 27%;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.project-list a:hover {
+    transform: scale(1.05);
+}
+
+.project-list img {
+    display: block;
+    width: 100%;
+    border-radius: 16px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.project-list img:hover {
+    opacity: 1;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: auto;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    gap: 12px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    padding-left: 10%;
+    color: #ff8a8a;
+}
+
+.contact p {
+    font-size: 18px;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.contact-form label {
+    font-size: 22px;
+    color: #f564a9;
+}
+
+.contact-form input {
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #4e71ff;
+    border-radius: 8px;
+}
+
+.contact-form textarea {
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 18px;
+    height: 80px;
+    padding: 10px;
+    border: 2px solid #4e71ff;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #a78bfa;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #7f55b1;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #a78bfa;
+}
+
+.footer h3 {
+    color: #ffffff;
+}
+
+.footer a {
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.footer p {
+    font-size: 18px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+.footer p:hover {
+    color: #ddd;
+}
