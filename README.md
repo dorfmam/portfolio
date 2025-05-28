@@ -24,24 +24,28 @@ To view locally the project structure, follow the step below:
     git clone https://github.com/dorfmam/portfolio.git
     ```
 
-Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#projects)
+Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#home)
 
 ## 📂 Project Structure
 
 ```
 portfolio/
-├── images/                      # Visual assets used in the project
+├── assets/                         # Recursos estáticos organizados
+│   ├── css/                        # Estilos do portfólio
+│   │   ├── styles.css              # Estilo principal do portfólio
+│   │   └── query.css               # Estilos responsivos e media queries
+│   └── js/                         # Scripts JavaScript
+│       └── script.js               # Lógica JS do portfólio
+├── images/                         # Recursos visuais utilizados no projeto
 │   ├── imc-calculator-project.jpg  # Thumbnail image for the IMC calculator
-│   ├── me.png                     # Personal avatar
-│   ├── myself.png                 # Alternative personal image
-│   ├── portfolio.jpg              # Portfolio preview image
-│   ├── purple-sky.png             # Favicon image
-│   └── typescript-poo-project.jpg # Thumbnail for the TypeScript OOP project
-├── style/                       # Stylesheets for the project
-│   ├── styles.css                 # Main stylesheet for layout and design
-│   └── query.css                  # Media queries and responsive styling
-├── index.html                  # Main HTML page for the IMC calculator
-└── README.md                   # Project documentation and usage instructions
+│   ├── me.png                      # Personal avatar
+│   ├── myself.png                  # Alternative personal image
+│   ├── portfolio.jpg               # Portfolio preview image
+│   ├── purple-sky.png              # Favicon image
+│   └── typescript-poo-project.jpg  # Thumbnail for the TypeScript OOP project
+├── index.html                      # Página principal do portfólio
+├── .gitattributes                  # Arquivo para controle de linguagens no GitHub
+└── README.md                       # Documentação do projeto
 ```
 
 ---

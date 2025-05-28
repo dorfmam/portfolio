@@ -10,8 +10,8 @@
             rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="style/styles.css" />
-        <link rel="stylesheet" href="style/query.css" />
+        <link rel="stylesheet" href="assets/style/styles.css" />
+        <link rel="stylesheet" href="assets/style/query.css" />
         <link rel="icon" href="images/purple-sky.png" type="image/png" />
         <title>Portfolio - Caio</title>
     </head>
@@ -136,6 +136,8 @@
                 action="https://formsubmit.co/contatodorfmam@gmail.com"
                 method="POST"
                 class="contact-form"
+                id="contact-form"
+                novalidate
             >
                 <label for="name">Name:</label>
                 <input
@@ -145,6 +147,7 @@
                     placeholder="Enter your name"
                     required
                 />
+                <span id="name-field"></span>
 
                 <label for="email">Email:</label>
                 <input
@@ -154,6 +157,7 @@
                     placeholder="Enter your email"
                     required
                 />
+                <span id="email-field"></span>
 
                 <label for="subject">Subject:</label>
                 <input
@@ -163,6 +167,7 @@
                     placeholder="Enter the subject of the message"
                     required
                 />
+                <span id="subject-field"></span>
 
                 <label for="message">Message:</label>
                 <textarea
@@ -172,6 +177,7 @@
                     placeholder="Enter your message"
                     required
                 ></textarea>
+                <span id="message-field"></span>
 
                 <button type="submit">Send</button>
 
@@ -185,5 +191,7 @@
             </h3>
             <p>&nbsp;- All the rights reserved</p>
         </footer>
+
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
