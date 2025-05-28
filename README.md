@@ -30,22 +30,22 @@ Or you can simply access directly the site. [Click here](https://dorfmam.github.
 
 ```
 portfolio/
-├── assets/                         # Recursos estáticos organizados
-│   ├── css/                        # Estilos do portfólio
-│   │   ├── styles.css              # Estilo principal do portfólio
-│   │   └── query.css               # Estilos responsivos e media queries
-│   └── js/                         # Scripts JavaScript
-│       └── script.js               # Lógica JS do portfólio
-├── images/                         # Recursos visuais utilizados no projeto
+├── assets/                         # Static Features
+│   ├── css/                        # Styles used in the webpage
+│   │   ├── styles.css              # Portfolio main style
+│   │   └── query.css               # Portfolio logic to adapt it to mobile devices
+│   └── js/                         # JavaScript codes
+│       └── script.js               # Portfolio logic with JavaScript
+├── images/                         # All the images used in the portfolio
 │   ├── imc-calculator-project.jpg  # Thumbnail image for the IMC calculator
 │   ├── me.png                      # Personal avatar
 │   ├── myself.png                  # Alternative personal image
 │   ├── portfolio.jpg               # Portfolio preview image
 │   ├── purple-sky.png              # Favicon image
 │   └── typescript-poo-project.jpg  # Thumbnail for the TypeScript OOP project
-├── index.html                      # Página principal do portfólio
-├── .gitattributes                  # Arquivo para controle de linguagens no GitHub
-└── README.md                       # Documentação do projeto
+├── index.html                      # Main webpage of the portfolio
+├── .gitattributes                  # Languages control for GitHub
+└── README.md                       # Project documentation
 ```
 
 ---
