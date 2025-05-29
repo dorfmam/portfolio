@@ -46,6 +46,8 @@ form.addEventListener("submit", function (event) {
             "Message must have at least 10 characters.";
         messageField.focus();
         return;
+    } else {
+        spanMessageField.innerHTML = "";
     }
 
     form.submit();

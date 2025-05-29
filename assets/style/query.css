@@ -57,6 +57,10 @@
         font-size: 16px;
     }
 
+    .project-list a {
+        width: 100%;
+    }
+
     .contact h2 {
         font-size: 24px;
     }
