@@ -24,7 +24,7 @@ To view locally the project structure, follow the step below:
     git clone https://github.com/dorfmam/portfolio.git
     ```
 
-Or you can simply access directly the site. [Click here](portfolio-et7sriexk-caio-dorfmams-projects.vercel.app)
+Or you can simply access directly the site, just [click here](https://portfolio-psi-nine-0dfnwaatp7.vercel.app/)
 
 ## 📂 Project Structure
 
