@@ -24,28 +24,29 @@ To view locally the project structure, follow the step below:
     git clone https://github.com/dorfmam/portfolio.git
     ```
 
-Or you can simply access directly the site. [Click here](https://dorfmam.github.io/portfolio/#home)
+Or you can simply access directly the site, just [click here](https://portfolio-psi-nine-0dfnwaatp7.vercel.app/)
 
 ## 📂 Project Structure
 
 ```
 portfolio/
-├── assets/                         # Static Features
-│   ├── css/                        # Styles used in the webpage
-│   │   ├── styles.css              # Portfolio main style
-│   │   └── query.css               # Portfolio logic to adapt it to mobile devices
-│   └── js/                         # JavaScript codes
-│       └── script.js               # Portfolio logic with JavaScript
-├── images/                         # All the images used in the portfolio
-│   ├── imc-calculator-project.jpg  # Thumbnail image for the IMC calculator
-│   ├── me.png                      # Personal avatar
-│   ├── myself.png                  # Alternative personal image
-│   ├── portfolio.jpg               # Portfolio preview image
-│   ├── purple-sky.png              # Favicon image
-│   └── typescript-poo-project.jpg  # Thumbnail for the TypeScript OOP project
-├── index.html                      # Main webpage of the portfolio
-├── .gitattributes                  # Languages control for GitHub
-└── README.md                       # Project documentation
+├── assets/                         
+│   └── images/                     
+│       ├── imc-calculator-project.jpg
+│       ├── me.png
+│       ├── myself.png
+│       ├── portfolio.jpg
+│       ├── purple-sky.png
+│       └── typescript-poo-project.jpg
+├── src/                            
+│   ├── css/                        
+│   │   ├── styles.css              
+│   │   └── query.css               
+│   └── js/                         
+│       └── script.js
+├── index.html                      
+├── .gitattributes                  
+└── README.md                       
 ```
 
 ---
