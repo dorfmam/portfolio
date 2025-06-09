@@ -240,25 +240,49 @@ body {
     gap: 16px;
 }
 
-.project-list a {
-    display: block;
+.project-card {
+    position: relative;
     width: 30%;
-    border-radius: 12px;
+    aspect-ratio: 3 / 2;
     overflow: hidden;
+    border-radius: 12px;
     transition: transform 0.3s;
 }
 
-.project-list a:hover {
-    transform: scale(1.05);
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    transition: transform 0.5s ease;
 }
 
-.project-list img {
-    display: block;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
-    border-radius: 16px;
-    opacity: 0.8;
-    transition: opacity 0.3s;
-    cursor: pointer;
+    background-color: #1a1a1a;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.project-list a {
+    display: block;
 }
 
 .project-list img:hover {
